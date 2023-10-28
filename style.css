@@ -1,0 +1,13 @@
+body {
+    background-color: antiquewhite;
+}
+h1 {
+    text-align: center;
+}
+.head1 {
+    background-color: cadetblue;
+}
+#head2 {
+    background-color: beige;
+    color: dodgerblue;
+}
