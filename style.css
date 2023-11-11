@@ -50,11 +50,13 @@ iframe {
   font-size: 24px;
   margin-bottom: 20px;
 }
-
+.styled-heading {
+  font-weight: bold;
+  color: White;
 /* Custom styles for the music education content */
 .bold {
   font-weight: bold;
-  color: White;
+  color: CadetBlue;
 }
 
 /* Adjust styles for the footer paragraphs */
