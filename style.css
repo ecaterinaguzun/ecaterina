@@ -114,9 +114,9 @@ footer {
 
 /* Additional styling for specific sections */
 .styled-heading {
-    background-color: LightSteelBlue;
+    background-color: DarkCyan;
     font-size: 35px;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px;
     margin-bottom: 20px;
