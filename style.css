@@ -122,14 +122,3 @@ footer {
     margin-bottom: 20px;
 }
 
-/* Styling for musical icons section */
-.musical-icons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.artist {
-    flex-basis: calc(33.33% - 20px);
-    margin-bottom: 
-
