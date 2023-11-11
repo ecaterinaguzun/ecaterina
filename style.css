@@ -1,47 +1,64 @@
 body {
-    background-color: FloralWhite;
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
 }
-h1 {
-    text-align: center;
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: CadetBlue;
+  padding: 10px;
 }
-.head1 {
-    background-color: cadetblue;
-    color: white;
-}
-#head2 {
-    background-color: beige;
-    color: dodgerblue;
-}
-body {
+
+.content {
+  margin-bottom: 20px;
+  background-color: LightBlue;
   padding: 20px;
 }
 
-header {
-  background-color: rgb(0, 22, 110);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 100;
+.footer {
   text-align: center;
+  background-color: PowderBlue;
   padding: 10px;
-  color: white;
+  color: DarkCyan;
+}
+
+a {
+  color: Cornsilk;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  color: DarkCyan;
+}
+
+/* Style for the embedded iframes */
+iframe {
+  width: 100%;
+  height: 315px; /* Adjust height as needed */
+  border: 0;
+}
+
+/* Additional styles for the welcome message */
+.head1 {
+  color: CadetBlue;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Custom styles for the music education content */
+.bold {
+  font-weight: bold;
+  color: DarkCyan;
+}
+
+/* Adjust styles for the footer paragraphs */
+.footer p {
   margin-bottom: 10px;
-}
-
-content {
-  background: #9af7ff;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-footer {
-  background-color: #184282;
   color: white;
-  padding: 10px;
 }
-
-.bold-text {
-  text-transform: uppercase;
-  font-weight: 900;
-  color: yellow;
-}
-
