@@ -32,8 +32,8 @@ a:hover {
   text-decoration: underline;
 }
 
-h1 {
-  color: AliceBlue;
+h1, h2 {
+  color: LightSeaGreen;
 }
 
 /* Style for the embedded iframes */
