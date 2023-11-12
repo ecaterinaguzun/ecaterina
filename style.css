@@ -1,6 +1,9 @@
 body {
-  padding: 20px;
-   font-family: 'Century Gothic', sans-serif;
+ background-color: Azure;
+    color: black;
+    font-family: 'Century Gothic', sans-serif;
+    margin: 20;
+    padding: 20;
 }
 
 .header {
