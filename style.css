@@ -5,7 +5,25 @@ body {
     margin: 20;
     padding: 20;
 }
+.nav-bar {
+    background-color: Teal;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
 
+.nav-bar a {
+    float: left;
+    display: block;
+    color: BlanchedAlmond;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: CadetBlue;
+    color: LightBlue;
+}
 .header {
   text-align: center;
   margin-bottom: 20px;
