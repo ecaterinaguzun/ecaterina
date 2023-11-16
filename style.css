@@ -24,6 +24,9 @@ body {
     background-color: CadetBlue;
     color: LightBlue;
 }
+p::hover {
+ color:
+ 
 .header {
   text-align: center;
   margin-bottom: 20px;
