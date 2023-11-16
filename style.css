@@ -37,6 +37,10 @@ body {
   background-color: LightBlue;
   padding: 20px;
 }
+p::hover {
+ color:	MediumAquamarine;
+ font-weight:bold;
+}
 
 .footer {
   text-align: center;
