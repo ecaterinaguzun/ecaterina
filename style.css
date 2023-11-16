@@ -25,7 +25,10 @@ body {
     color: LightBlue;
 }
 p::hover {
- color:
+ color:	MediumAquamarine;
+ font-weight:bold;
+}
+
  
 .header {
   text-align: center;
