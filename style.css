@@ -20,7 +20,7 @@ body {
 
 /* Style the header within the content class using descendant combinator */
 .content h2 {
-  color: PowderBlue;
+  color: RosyBrown;
 }
 
 /* Style the footer paragraphs using the sibling combinator */
