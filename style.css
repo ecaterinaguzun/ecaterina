@@ -113,4 +113,27 @@ iframe {
   color: LightSlateGray;
 }
 
+.paintp::before {
+    content: "uhm";
+    color: pink;
+    font-weight: bold;
+}
+
+.paint:hover::before {
+    content: "why hover?";
+    color: blue; 
+}
+
+.paint::after {
+    content: "see ya!";
+    color: DarkSalmon;
+    font-weight: bold;
+}
+
+.paint::selection {
+    background-color: white;
+    color: purple;
+}
+
+
  
