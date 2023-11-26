@@ -113,7 +113,7 @@ iframe {
   color: LightSlateGray;
 }
 
-.paintp::before {
+.paint::before {
     content: "uhm";
     color: pink;
     font-weight: bold;
