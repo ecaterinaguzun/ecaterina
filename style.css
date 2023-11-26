@@ -121,26 +121,49 @@ iframe {
     transition: opacity 0.3s ease;
 }
 
-.paint::before {
-    content: "uhm";
-    color: pink;
-    font-weight: bold;
+/* Visibility property */
+.visible {
+    visibility: visible;
 }
 
-.paint:hover::before {
-    content: "why hover?";
-    color: blue;
+.hidden {
+    visibility: hidden;
+}
+
+/* Opacity */
+.op_1 {
     opacity: 1;
 }
 
-.paint::after {
-    content: "see ya!";
-    color: DarkSalmon;
+.op_0 {
+    opacity: 0;
+}
+
+.op_05 {
+    opacity: 0.5;
+}
+
+/* Display */
+.none {
+    display: none;
     font-weight: bold;
 }
 
-.paint:hover::after {
-    opacity: 1;
+.inline {
+    display: inline;
+    font-weight: bold;
 }
+
+.block {
+    display: block;
+    font-weight: bold;
+}
+
+h3 {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
 
  
