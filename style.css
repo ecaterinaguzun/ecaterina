@@ -1,9 +1,31 @@
 body {
- background-color: Azure;
-    color: black;
-    font-family: 'Century Gothic', sans-serif;
-    margin: 20;
-    padding: 20;
+  background-color: Azure;
+  color: black;
+  font-family: 'Century Gothic', sans-serif;
+  margin: 20px; /* Fixed typo in margin property */
+  padding: 20px;
+}
+
+/* Style the navigation bar links using child combinator */
+.nav-bar > a {
+  color: steelblue;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+/* Style the content inside the content class using descendant combinator */
+.content iframe {
+  width: 100%;
+}
+
+/* Style the header within the content class using descendant combinator */
+.content h2 {
+  color: PowderBlue;
+}
+
+/* Style the footer paragraphs using the sibling combinator */
+.footer p + p {
+  margin-top: 15px;
 }
 .nav-bar {
     background-color: Teal;
@@ -90,3 +112,5 @@ iframe {
   margin-bottom: 10px;
   color: LightSlateGray;
 }
+
+ 
