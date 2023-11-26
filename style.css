@@ -121,7 +121,7 @@ iframe {
 
 .paint:hover::before {
     content: "why hover?";
-    color: blue; 
+    color: blue;
 }
 
 .paint::after {
@@ -134,6 +134,5 @@ iframe {
     background-color: white;
     color: purple;
 }
-
 
  
