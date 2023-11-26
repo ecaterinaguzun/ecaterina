@@ -113,6 +113,14 @@ iframe {
   color: LightSlateGray;
 }
 
+.paint::before,
+.paint::after {
+    content: "";
+    display: block;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
 .paint::before {
     content: "uhm";
     color: pink;
@@ -122,6 +130,7 @@ iframe {
 .paint:hover::before {
     content: "why hover?";
     color: blue;
+    opacity: 1;
 }
 
 .paint::after {
@@ -130,9 +139,8 @@ iframe {
     font-weight: bold;
 }
 
-.paint::selection {
-    background-color: white;
-    color: purple;
+.paint:hover::after {
+    opacity: 1;
 }
 
  
